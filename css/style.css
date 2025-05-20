@@ -5,51 +5,29 @@ body {
     padding: 20px;
 }
 
-.container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-}
-
-h1 {
+header {
+    background: #35424a;
+    color: white;
+    padding: 10px 0;
     text-align: center;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
+h1 {
+    margin: 0;
 }
 
-fieldset {
-    border: 2px solid #007BFF;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-
-legend {
-    font-weight: bold;
-}
-
-label {
-    margin-bottom: 5px;
-}
-
-input, select {
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+main {
+    margin-top: 20px;
 }
 
 button {
-    padding: 10px;
-    background-color: #007BFF;
+    background-color: #5cb85c;
     color: white;
     border: none;
-    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #4cae4c;
 }
